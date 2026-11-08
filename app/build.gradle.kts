@@ -55,7 +55,8 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+    // المسار الرسمي المحدث على Maven Central لمحرك yt-dlp و FFmpeg
     val ytdlVersion = "0.16.0"
-    implementation("com.github.yausername.youtubedl-android:library:$ytdlVersion")
-    implementation("com.github.yausername.youtubedl-android:ffmpeg:$ytdlVersion")
+    implementation("io.github.junkfood02.youtubedl-android:library:$ytdlVersion")
+    implementation("io.github.junkfood02.youtubedl-android:ffmpeg:$ytdlVersion")
 }
